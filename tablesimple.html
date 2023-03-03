@@ -7,23 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            padding: 50px;
+        }
+
         table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 20px;
             border: 1px solid black;
-            border-collapse:collapse;
-            width: 1200px;
-            text-align: center;
         }
 
         th {
-            border: 1px solid pink;
-            background-color: blanchedalmond;
+            font-family: 'Patua One', cursive;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            background-color: #d61b06;
+            border-color: white;
         }
 
-        td:hover {
-            border: 1px solid green;
-            background-color:brown;
-            cursor: pointer;
+        td {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            color: #5f6062;
+            font-size: 13px;
+            padding: 20px 20px 20px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+        }
 
+        .hover {
+            background: red;
         }
     </style>
 </head>
@@ -31,45 +52,34 @@
 <body>
     <table border="2">
         <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th rowspan="2">Thứ</th>
+            <th colspan="2">Hoạt Động</th>
         </tr>
         <tr>
-            <td>L. Messi Argentina</td>
-            <td>1234567</td>
-            <td>Argentina</td>
+            <th>Sang</td>
+            <th>Chieu</td>
         </tr>
         <tr>
-            <td>Cristiano Ronaldo</td>
-            <td>1234567</td>
-            <td>Bồ Đào Nha</td>
+            <td>thu 2</td>
+            <td>toan</td>
+            <td>tv</td>
         </tr>
         <tr>
-            <td>Neymar Brazil</td>
-            <td>1234567</td>
-            <td>Brazil</td>
+            <td>thu 3</td>
+            <td>anh</td>
+            <td>hoa</td>
         </tr>
         <tr>
-            <td>Bruno Fernandes</td>
-            <td>1234567</td>
-            <td>Bồ Đào Nha</td>
+            <td>thu 4</td>
+            <td>sinh</td>
+            <td>su</td>
         </tr>
         <tr>
-            <td>Cristiano Ronaldo</td>
-            <td>1234567</td>
-            <td>Bồ Đào Nha</td>
+            <td>thu 5</td>
+            <td>dia </td>
+            <td>hoa</td>
         </tr>
-        <tr>
-            <td>Neymar Brazil</td>
-            <td>1234567</td>
-            <td>Brazil</td>
-        </tr>
-        <tr>
-            <td>Bruno Fernandes</td>
-            <td>1234567</td>
-            <td>Bồ Đào Nha</td>
-        </tr>
+
     </table>
 </body>
 
